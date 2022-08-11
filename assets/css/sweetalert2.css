@@ -1,0 +1,57 @@
+
+/* Custom sweetalert2 style */
+.swal2-popup {
+  color: white;
+  border-radius: 0px!important;
+  border: 1px solid #FFEBEE!important;
+  top: 4px;
+  right: 8px;
+  min-height: 56px;
+  max-width: 400px!important;
+  margin-left: calc(50vw - 175px)!important;
+}
+
+.swal2-title {
+  font-weight: normal!important;
+}
+
+h2.swal2-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.swal2-confirm, .swal2-cancel {
+  min-width: 100px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 40px!important;
+  border: 1px solid #38BBC4;
+  border-radius: 8px;
+}
+
+.swal2-confirm {
+  background: #38BBC4;
+  color: white;
+}
+
+.swal2-confirm:hover {
+  background: #38CCC4;
+}
+
+.swal2-confirm:focus {
+  outline-color: #38BBC4;
+}
+
+.swal2-cancel {
+  background: white;
+  color: #38BBC4;
+}
+
+.swal2-cancel:hover {
+  color: white;
+  background: #38CCC4;
+}
+
+/* End */

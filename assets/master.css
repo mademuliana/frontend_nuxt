@@ -1,0 +1,8 @@
+.theme--dark.v-select.v-text-field--solo-inverted.v-input--is-focused .v-select__selection--comma {
+  color: #FFF !important;
+}
+
+.shadow {
+  box-shadow: 0 2px 45px 0 rgba(0, 0, 0, 0.05) !important;
+}
+

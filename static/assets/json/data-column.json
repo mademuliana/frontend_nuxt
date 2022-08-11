@@ -1,0 +1,38 @@
+{
+  "status": true,
+  "data": {
+    "headers": [
+      {
+        "label": "Name",
+        "type": "text",
+        "field": "name",
+        "is_main": true
+      },
+      {
+        "label": "Age",
+        "type": "number",
+        "field": "age",
+        "is_main": true
+      },
+      {
+        "label": "Address",
+        "type": "text",
+        "field": "address",
+        "is_main": false
+      }
+    ],
+    "data": [
+      {
+        "name": "John",
+        "age": 21,
+        "address": "123 Main St."
+      },
+      {
+        "name": "Jane",
+        "age": 19,
+        "address": "124 Main St."
+      }
+    ] 
+  },
+  "message": "Success get data"
+}

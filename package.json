@@ -1,0 +1,33 @@
+{
+  "name": "Nuxt-Starter",
+  "version": "1.0.0",
+  "description": "Starter project for Nuxt",
+  "author": "JWS",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/pwa": "^3.3.5",
+    "dayjs": "^1.10.4",
+    "nuxt": "^2.15.2",
+    "nuxt-i18n": "^6.20.4",
+    "sweetalert2": "^10.15.5",
+    "vue-mq": "^1.0.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/moment": "^1.6.1",
+    "@nuxtjs/vuetify": "^1.11.3",
+    "moment-locales-webpack-plugin": "^1.2.0"
+  },
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0"
+    }
+  }
+}
